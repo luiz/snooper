@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>snooper.js test suite</title>
+	<link rel="stylesheet" href="../bower_components/mocha/mocha.css">
+</head>
+<body>
+	<div id="mocha"></div>
+	<button id="click-me">Click me</button>
+	<button id="click-me-too">Click me too</button>
+	<script src="../bower_components/expect/index.js"></script>
+	<script src="../bower_components/mocha/mocha.js"></script>
+	<script>mocha.setup('bdd');</script>
+	<script src="../snooper.js"></script>
+	<script src="snooper-test.js"></script>
+	<script>
+		mocha.checkLeaks();
+		if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+		else { mocha.run(); }
+	</script>
+</body>
+</html>

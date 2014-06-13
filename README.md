@@ -6,7 +6,7 @@ Snooper lets you retrieve listeners previously added to elements using `addEvent
 Usage
 -----
 
-You can use (http://bower.io)[bower] to add it to your project or you can download it from this repository. Load it before any other script that you want to be able to monitor. Example:
+You can use [bower](http://bower.io) to add it to your project or you can download it from this repository. Load it before any other script that you want to be able to monitor. Example:
 
 	<script src="snooper.js"></script>
 	<script src="main.js"></script>

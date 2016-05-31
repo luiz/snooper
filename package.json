@@ -1,29 +1,30 @@
 {
-	"name": "snooper",
-	"version": "0.0.0",
-	"description": "Spy addEventListener/attachEvent calls",
-	"main": "snooper.js",
-	"scripts": {
-		"test": "node_modules/mocha-phantomjs/bin/mocha-phantomjs test/index.html"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/luiz/snooper"
-	},
-	"keywords": [
-		"event",
-		"debug",
-		"inspect",
-		"spy"
-	],
-	"author": "Luiz Corte Real <sr.saude@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/luiz/snooper/issues"
-	},
-	"homepage": "https://github.com/luiz/snooper",
-	"devDependencies": {
-		"phantomjs": "~1.9.7-8",
-		"mocha-phantomjs": "~3.4.1"
-	}
+  "name": "snooper",
+  "version": "0.0.0",
+  "description": "Spy addEventListener/attachEvent calls",
+  "main": "snooper.js",
+  "scripts": {
+    "test": "node_modules/.bin/phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luiz/snooper"
+  },
+  "keywords": [
+    "event",
+    "debug",
+    "inspect",
+    "spy"
+  ],
+  "author": "Luiz Corte Real <sr.saude@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiz/snooper/issues"
+  },
+  "homepage": "https://github.com/luiz/snooper",
+  "devDependencies": {
+    "bower": "1.7.9",
+    "mocha-phantomjs-core": "1.3.1",
+    "phantomjs-prebuilt": "2.1.7"
+  }
 }
